@@ -1,0 +1,34 @@
+.organize{
+
+
+    &_content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 250px 0;
+    }
+
+    &_info{
+        text-align: left;
+
+        &_title{
+            margin-bottom: 27px;
+            max-width: 335px;
+        }
+
+        &_text{
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 40px;
+            letter-spacing: 0.2px;
+            color: #374754;
+            margin-bottom: 70px;
+            max-width: 532px;
+        }
+
+        &_button{
+            max-width: 236px;
+            font-weight: bold;
+        }
+    }
+}
