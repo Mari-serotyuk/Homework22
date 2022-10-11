@@ -77,7 +77,7 @@ task('build',
         'clean',
         parallel('copy:html', 'styles', 'icons', 'fonts')
     )
-)
+) 
 
 task('default', series('clean',
 parallel( 'copy:html', 'styles', 'icons', 'fonts'), 
